@@ -1,0 +1,27 @@
+*{
+    color: white;
+}
+.ok,.bad{
+    visibility: hidden;
+}
+.time{
+    width: 200px;
+    height: 2px;
+    background-color: blueviolet;
+    margin: 0 auto;
+    margin-top: 2rem;
+    transition:width 0.5s;
+}
+.container{
+    border: 1px solid black;
+    max-width: 400px;
+    height: 500px;
+    background-color: #3F2E56;
+    border-radius: 5px;
+    
+}
+button{
+    background-color: #80ADA0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
